@@ -1,0 +1,14 @@
+.input {
+	width: 80%;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	font-size: 1.1rem;
+	background-color: whitesmoke;
+	background-image: url("https://www.stickpng.com/assets/thumbs/585e4ae1cb11b227491c3393.png");
+	background-position: 10px;
+	background-repeat: no-repeat;
+	background-size: 1rem;
+	padding: 0.5rem;
+	padding-left: 3rem;
+	border-radius: 3rem;
+}

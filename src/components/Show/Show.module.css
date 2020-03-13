@@ -1,0 +1,11 @@
+.Show {
+	background-color: whitesmoke;
+	border: 3px solid #ded9d7;
+	color: #61615f;
+	flex-basis: 430px;
+	margin-bottom: 1rem;
+}
+
+.Image {
+	width: 430px;
+}

@@ -1,0 +1,23 @@
+.NavBar {
+	display: flex;
+	width: 80%;
+	margin: 1.5rem auto;
+	padding: 0;
+	list-style-type: none;
+}
+
+.NavBar li {
+	border-top: 7px solid white;
+	margin-right: 2rem;
+	font-size: 1.3rem;
+}
+
+.NavBar li:hover {
+	cursor: pointer;
+	border-top: 7px solid rgb(224, 221, 221);
+}
+
+.NavLink {
+	text-decoration: none;
+	color: black;
+}
