@@ -1,6 +1,7 @@
 .Movie {
 	background-color: whitesmoke;
 	border: 3px solid #ded9d7;
+	box-sizing: border-box;
 	color: #61615f;
 	flex-basis: 430px;
 	margin-bottom: 1rem;
@@ -8,4 +9,40 @@
 
 .Image {
 	width: 430px;
+}
+
+@media only screen and (max-width: 480px) {
+	.Movie {
+		border: 0;
+		margin: 0 auto;
+		margin-bottom: 70px;
+	}
+
+	.Image {
+		width: 320px;
+	}
+}
+
+@media only screen and (min-width: 481px) {
+	.Movie {
+		border: 0;
+		margin: 0 auto;
+		margin-bottom: 70px;
+	}
+
+	.Image {
+		width: 480px;
+	}
+}
+
+@media only screen and (min-width: 1081px) {
+	.Movie {
+		border: 0;
+		margin: 0 auto;
+		margin-bottom: 70px;
+	}
+
+	.Image {
+		width: 500px;
+	}
 }

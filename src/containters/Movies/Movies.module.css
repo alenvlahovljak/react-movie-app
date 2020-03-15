@@ -1,7 +1,21 @@
 .Movies {
 	width: 80%;
 	display: flex;
+	box-sizing: border-box;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	margin: 0 auto;
+}
+
+@media only screen and (max-width: 480px) {
+	.Movies {
+		width: 100%;
+		margin: 0;
+	}
+}
+
+@media only screen and (min-width: 481px) {
+	.Movies {
+		width: 100%;
+	}
 }

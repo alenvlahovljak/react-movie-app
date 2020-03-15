@@ -9,3 +9,27 @@
 .Image {
 	width: 430px;
 }
+
+@media only screen and (min-width: 481px) {
+	.Show {
+		border: 0;
+		margin: 0 auto;
+		margin-bottom: 70px;
+	}
+
+	.Image {
+		width: 480px;
+	}
+}
+
+@media only screen and (min-width: 1081px) {
+	.Show {
+		border: 0;
+		margin: 0 auto;
+		margin-bottom: 70px;
+	}
+
+	.Image {
+		width: 500px;
+	}
+}

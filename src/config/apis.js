@@ -8,4 +8,4 @@ export const top10MoviesAPI = `${api}/movie/top_rated?api_key=${API_KEY}&page=1`
 
 export const queryAPI = `${api}/search`;
 export const movieQueryAPI = `${queryAPI}/movie?api_key=${API_KEY}`;
-export const showQueryAPI = `${queryAPI}/tv?api_key=${API_KEY}&page=1`;
+export const showQueryAPI = `${queryAPI}/tv?api_key=${API_KEY}`;

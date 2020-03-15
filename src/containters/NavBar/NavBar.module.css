@@ -21,3 +21,23 @@
 	text-decoration: none;
 	color: black;
 }
+
+@media only screen and (max-width: 480px) {
+	.NavBar {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	.NavLink {
+		font-size: 1rem;
+	}
+}
+
+@media only screen and (min-width: 481px) {
+	.NavBar {
+		width: 100%;
+	}
+	.NavLink {
+		font-size: 1.5rem;
+	}
+}

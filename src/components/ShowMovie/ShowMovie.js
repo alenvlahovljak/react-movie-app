@@ -33,7 +33,6 @@ function ShowMovie(props) {
 	}, []);
 
 	const { title, backdrop_path, overview } = movie[0];
-	console.log(history);
 	return (
 		<div className={styles.ShowMovie}>
 			<button onClick={() => history.goBack()} className={styles.NavLink}>

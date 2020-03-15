@@ -15,7 +15,6 @@ class Header extends Component {
 		if (pathname === "/tv-shows") this.props.onShows();
 	}
 	render() {
-		console.log(this.props);
 		return (
 			<header className={styles.Header}>
 				<NavBar
